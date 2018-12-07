@@ -1,16 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
+<meta charset="utf-8">
+<title>Grayson Devine</title>
+<link rel="icon" type="image/x-icon" href="../images/gd_logo_white.svg">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/foundation.css" rel="stylesheet" type="text/css" media="screen">
 <body>
 
+<header id="mainHeader"> 
+<div class="block">
+        <img id="logo" src="images/gd_logo_white.svg" alt="logo">
+        
+      <nav id="mainNav" class="column">
+       <h2 class="hidden">Main Navigation</h2> 
+    <ul>
+       <li><a href="index.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+    </ul>
+     </nav>
+     </div>
+</header>
+
+
+
+<div id="intro">
+    <img class="small-centered row" src="images/profile.png" alt="My profile image">
+    <p class="small-centered row">DESIGNER</p>
+</div>
+
+
     
-   
- <script src="main.js"></script>
+    
+    
+    <section id="gallery">
+          <div class="titleBar"> 
+            <p>GALLERY</p>
+        </div>
+        <div id="galleryCont"> <!-- gallery starts -->
+    <h2 class="hidden"> Gallery </h2>
+        <!-- video portion here -->  
+    <div id="video">
+        <video width="100%" controls>
+            <source src="assets/intro_video.mp4" type="video/mp4">
+        </video>
+    
+    
+    
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="images/gallery/bedroom_project_thumb.jpg" alt="3D model of a bedroom">
+            </div>
+        </div>
+    
+         <div class="column">
+            <div class="content"> 
+                <img src="images/gallery/beer_brand_thumb.jpg" alt="illustration of a beer brand">
+            </div>
+        </div>
+    
+         <div class="column">
+            <div class="content">
+                <img src="images/gallery/graffiti_thumb.jpg" alt="photoshoped a graffiti art onto a wall">
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="more">
+                <h3>MORE</h2>
+              <a href="gallery.html"><img src="images/gallery/poly_world_clouds_thumb.jpg" alt="photoshoped a graffiti art onto a wall"></a>
+            </div>
+        </div>
+
+    </div>
+    
+    </div>
+    </section> <!-- gallery ends--> 
+    
+    
+    <section id="contact"> <!-- contact form starts -->
+    <h2 class="hidden">Contact </h2>
+    <div class="titleBar">
+        <p>CONTACT</p>
+    </div>
+    
+    <div class="contactBox">
+    
+        <form>
+            <div class="formBox">
+            <label for="fname"> NAME</label>
+            </div>
+            <input type="text" class="inputBox" id="name" name="FLname" placeholder="Your first and last name">
+    
+            <div class="formBox">
+            <label for="fname"> EMAIL</label>
+            </div>
+            <input type="text" class="inputBox" id="email" name="emailAddress" placeholder="Your E-mail">
+            
+            <div class="formBox">
+            <label for="fname"> PHONE</label>
+            </div>
+            <input type="text" class="inputBox" id="phone" name="phoneNumber" placeholder="Your phone number">
+            
+            <div class="formBox">
+            <label for="fname"> MESSAGE</label>
+            </div>
+            <textarea id="message" name="messageBox" placeholder="Send me a message!"></textarea>
+    
+            <input id="button" type="submit" value="SUBMIT">
+    
+    </div>
+    
+    </section> <!-- contact form ends -->
+    <footer id="footer">
+        <h2 class="hidden"> Main Footer</h2>
+    <div id="mainFooter">
+        <ul>
+            <li> <a href="">Linkedin</a></li>
+            <li> <a href="">Github</a></li>
+            <li> <a href="">ArtStation</a></li>
+        </ul>
+    </div>
+    </footer>
+
+
+
+
+<script src="js/app.js"> </script>
+<script src="js/vendor/foundation.js"></script>
+
 </body>
 </html>
