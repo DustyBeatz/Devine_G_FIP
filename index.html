@@ -21,23 +21,16 @@
     </ul>
      </nav>
      </div>
-</header>
 
 
 
 <div id="intro">
-    <img class="small-centered row" src="images/profile.png" alt="My profile image">
-    <p class="small-centered row">DESIGNER</p>
+    <img  src="images/profile.png" alt="My profile image">
+    <p>DESIGNER</p>
 </div>
+</header>
 
-
-    
-    
-    
     <section id="gallery">
-          <div class="titleBar"> 
-            <p>GALLERY</p>
-        </div>
         <div id="galleryCont"> <!-- gallery starts -->
     <h2 class="hidden"> Gallery </h2>
         <!-- video portion here -->  
@@ -76,18 +69,21 @@
     </div>
     
     </div>
+
     </section> <!-- gallery ends--> 
     
     
     <section id="contact"> <!-- contact form starts -->
     <h2 class="hidden">Contact </h2>
-    <div class="titleBar">
-        <p>CONTACT</p>
-    </div>
+        <div class="titleBar">
+            <p>CONTACT</p>
+        </div>
+
     
     <div class="contactBox">
     
         <form>
+            <div id="contactEntry">
             <div class="formBox">
             <label for="fname"> NAME</label>
             </div>
@@ -102,14 +98,14 @@
             <label for="fname"> PHONE</label>
             </div>
             <input type="text" class="inputBox" id="phone" name="phoneNumber" placeholder="Your phone number">
-            
-            <div class="formBox">
+        </div>
+            <div id="messageBox"><div class="formBox">
             <label for="fname"> MESSAGE</label>
             </div>
-            <textarea id="message" name="messageBox" placeholder="Send me a message!"></textarea>
-    
-            <input id="button" type="submit" value="SUBMIT">
-    
+            <textarea id="message" name="message" placeholder="Send me a message!"></textarea>
+        </div>
+            <button id="button" name="submit">SUBMIT</button>
+    </form>
     </div>
     
     </section> <!-- contact form ends -->
@@ -117,9 +113,7 @@
         <h2 class="hidden"> Main Footer</h2>
     <div id="mainFooter">
         <ul>
-            <li> <a href="">Linkedin</a></li>
-            <li> <a href="">Github</a></li>
-            <li> <a href="">ArtStation</a></li>
+            <li> <a href="https://www.github.com/dustyBeatz">Github</a></li>
         </ul>
     </div>
     </footer>
